@@ -1,0 +1,45 @@
+html, body {
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background: rgba(30, 0, 50, 0.95);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  #timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffffcc;
+    letter-spacing: 1px;
+  }
+  
+  .record-btn {
+    background: rgba(110, 0, 200, 0.7);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 14px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 12px rgba(180, 0, 255, 0.4);
+  }
+  
+  .record-btn.recording {
+    background: rgba(255, 0, 80, 0.8);
+    box-shadow: 0 0 16px rgba(255, 0, 100, 0.6);
+  }
+  
